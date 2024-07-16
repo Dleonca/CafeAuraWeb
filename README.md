@@ -17,4 +17,4 @@ Este proyecto consiste en el diseño y desarrollo de una página web para la caf
 ## Instalación
 1. Clona este repositorio.
    ```bash
-   git clone https://github.com/usuario/cafe-aura-web-project.git
+   git clone https://github.com/Dleonca/CafeAuraWeb.git
