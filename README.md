@@ -15,6 +15,7 @@ Este proyecto consiste en el diseño y desarrollo de una página web para la caf
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
 </p>
+
 - **Figma**: Para el diseño de la interfaz de usuario.
 - **HTML**: Para la estructura del sitio web.
 - **CSS**: Para el diseño y estilos del sitio web.
