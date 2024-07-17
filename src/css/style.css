@@ -22,6 +22,8 @@ body{
 }
 .CAheader{
     background-color: var(--color-principal-2); 
+    width: 100%;
+    height: 60px;
 }
 .CAicon{
     width: 50px;
@@ -34,14 +36,17 @@ body{
     font-style: normal;
     color:var(--color-secundario-1);
 }
+.navbar{
+    padding: 0 !important;
+}
 .nav-link{
     color:var(--color-secundario-1) !important;
     font-family: "Roboto Serif", serif;
-    font-size: 16px !important;
+    font-size: 14px !important;
 }
 .active{
-    background-color: var(--color-secundario-1) !important;
-    color: var(--color-principal-2)!important;
+    border-bottom: 2px solid var(--color-secundario-1) !important;
+   /* color: var(--color-principal-2)!important;*/
 }
 @media (max-width: 767px) {
     .CAheader{
@@ -51,4 +56,68 @@ body{
         color:var(--color-principal-1);
     }
 } 
-  
+/*main*/
+.CAmain{
+    width: 100%;
+    height: calc( 100vh - 153px);
+    background: url(/designs/assets/images/tipos-de-cafe-en-grano.jpg);
+    background-size: contain;
+}
+.photoCA, .productosCA, .misionCA{
+    width: 100%;
+}
+.photoCA{
+    height: 40%;
+}
+.productosCA{
+    height: 40%;
+    border-top: 10px solid var(--color-secundario-1);
+    background-color: var(--color-secundario-2) ;
+}
+.misionCA{
+    height: 20%;
+    background-color: var(--color-secundario-1) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mision{
+    font-family: "Roboto Serif", serif;
+    text-align: center;
+    font-size: 15px !important;
+    font-weight: 500;
+    color: var(--color-principal-2);
+    align-items: center;
+    padding: 10px 5px;
+    margin: 0;
+}
+/*footer*/
+.CAfooter{
+    width: 100%;
+    height: 93px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+}
+.ubicacion{
+    width: 100%;
+    height: 47px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-principal-1);
+}
+.redsocial{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-principal-2);
+}
+.iconredsocial{
+    width: 30px;
+    height: 30px;
+    margin: 0 20px 0;
+}
